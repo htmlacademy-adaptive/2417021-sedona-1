@@ -7,7 +7,7 @@
 
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo">
+      <a class="main-header__logo" href="index.html">
         <img src="img/sedona-logo.svg" width="184" height="96" alt="Логотип &#34;Городок Седона.&#34;">
       </a>
       <nav class="main-nav">
@@ -16,7 +16,7 @@
         </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
+            <li class="site-list__item">
               <a class="site-list__link" href="index.html">
                 Главная
               </a>
@@ -27,7 +27,7 @@
               </a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="form.html">
+              <a class="site-list__link site-list__link--active" href="form.html">
                 Форма отзыва
               </a>
             </li>
@@ -47,13 +47,13 @@
           <div class="form-hero-section__logo">
             <img src="img/SEDONA-word.svg" alt="Надпись &#34;SEDONA&#34;." width="229" height="39">
           </div>
-          <h2 class="form-hero-section__title">
+          <h1 class="form-hero-section__title">
             Оставьте свой отзыв
-          </h2>
+          </h1>
           <p class="form-hero-section__description">
-            Помогите нашим отелям стать лучше!<br>
-             оставьте отзыв о них, а также о<br>
-              посещенных вами<br>
+            Помогите нашим отелям стать лучше!
+             оставьте отзыв о них, а также о
+              посещенных вами
                достопримечательностях
           </p>
         </div>
@@ -67,20 +67,20 @@
           <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
 
             <fieldset class="feedback__full-name full-name">
-              <legend class="feedback__title">ПРЕДСТАВЬТЕСЬ:</legend>
+              <legend class="feedback__title">Представьтесь:</legend>
 
-              <label for="feedback-name">ИМЯ:*</label>
+              <label for="feedback-name">Имя:*</label>
               <input class="name-field" placeholder="Пётр" type="text" name="feedback-name" id="feedback-name" required>
 
-              <label for="feedback-surname">ФАМИЛИЯ:*</label>
+              <label for="feedback-surname">Фамилия:*</label>
               <input class="surname-field" placeholder="Пустота" type="text" name="feedback-surname" id="feedback-surname" required>
 
-              <label for="feedback-second-name">ОТЧЕСТВО:</label>
+              <label for="feedback-second-name">Отчество:</label>
               <input class="name-field" placeholder="Викторович" type="text" name="feedback-second-name" id="feedback-second-name">
             </fieldset>
 
             <fieldset>
-              <legend class="feedback__title">КОНТАКТНАЯ ИНФОРМАЦИЯ:</legend>
+              <legend class="feedback__title">Контактная информация:</legend>
 
               <label for="feedback-telephone">Контактный телефон:*</label>
               <input class="telephone-field" placeholder="Введите телефон" type="tel" name="feedback-telephone" id="feedback-telephone" required>
@@ -90,27 +90,27 @@
             </fieldset>
 
             <fieldset class="feedback">
-              <legend class="feedback__filter-title">Ваше Общее впечатление:</legend>
+              <legend class="feedback__filter-title">Ваше общее впечатление:</legend>
               <ul class="feedback__filter-list">
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="review-group" value="good" checked>
-                    <span class="control-mark"></span>
-                    <span class="control-label">Скорее положительное</span>
+                    <input class="control__input visually-hidden" type="radio" name="review-group" value="good" checked>
+                    <span class="control__mark"></span>
+                    <span class="control__label">Скорее положительное</span>
                   </label>
                 </li>
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="review-group" value="bad">
-                    <span class="control-mark"></span>
-                    <span class="control-label">Скорее отрицательное</span>
+                    <input class="control__input visually-hidden" type="radio" name="review-group" value="bad">
+                    <span class="control__mark"></span>
+                    <span class="control__label">Скорее отрицательное</span>
                   </label>
                 </li>
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="review-group" value="not-sure">
-                    <span class="control-mark"></span>
-                    <span class="control-label">Затрудняюсь ответить</span>
+                    <input class="control__input visually-hidden" type="radio" name="review-group" value="not-sure">
+                    <span class="control__mark"></span>
+                    <span class="control__label">Затрудняюсь ответить</span>
                   </label>
                 </li>
               </ul>
@@ -121,47 +121,47 @@
               <ul class="feedback__filter-list">
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="Devils Bridge" checked>
-                    <span class="control-mark"></span>
-                    <span class="control-label">Мост Дьявола</span>
+                    <input class="control__input visually-hidden" type="checkbox" name="Devils Bridge" checked>
+                    <span class="control__mark"></span>
+                    <span class="control__label">Мост Дьявола</span>
                   </label>
                 </li>
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="Bell Mountain" checked>
-                    <span class="control-mark"></span>
-                    <span class="control-label">Гора-Колокол</span>
+                    <input class="control__input visually-hidden" type="checkbox" name="Bell Mountain" checked>
+                    <span class="control__mark"></span>
+                    <span class="control__label">Гора-Колокол</span>
                   </label>
                 </li>
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="Slide Park" checked>
-                    <span class="control-mark"></span>
-                    <span class="control-label">Слайд-парк</span>
+                    <input class="control__input visually-hidden" type="checkbox" name="Slide Park" checked>
+                    <span class="control__mark"></span>
+                    <span class="control__label">Слайд-парк</span>
                   </label>
                 </li>
                 <li class="feedback__filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="Red Rocks">
-                    <span class="control-mark"></span>
-                    <span class="control-label">Красные скалы</span>
+                    <input class="control__input visually-hidden" type="checkbox" name="Red Rocks">
+                    <span class="control__mark"></span>
+                    <span class="control__label">Красные скалы</span>
                   </label>
                 </li>
               </ul>
             </fieldset>
 
-            <fieldset class="feedback__textare">
+            <fieldset class="feedback__textarea">
               <legend class="feedback__title">Опишите свои эмоции:</legend>
-              <label class="feedback__textarea-label">
-                <textarea name="feedback-text" id="feedback-text" cols="30" rows="10">
-                  Опишите подробно все свои восторги
+              <label class="feedback__textarea-label visually-hidden" for="feedback-text">
+                <textarea name="feedback-text" id="feedback-text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги.">
+                  Опишите подробно все свои восторги.
                 </textarea>
               </label>
             </fieldset>
 
             <div>
-              <button class="feedback__button button button--xl">
-                ОТПРАВИТЬ ОТЗЫВ
+              <button class="feedback__button button button--xl" type="submit">
+                Отправить отзыв
               </button>
               <small class="feedback__legend">
                 * — обязательные поля
@@ -180,21 +180,21 @@
         <div class="main-footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--vkontakte">
+              <a class="social__link social__link--vkontakte" href="#">
                 <span class="visually-hidden">
                   Логотип Вконтакте.
                 </span>
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--telegram">
+              <a class="social__link social__link--telegram" href="#">
                 <span class="visually-hidden">
                   Логотип Телеграма.
                 </span>
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link social__link--youtube">
+              <a class="social__link social__link--youtube" href="#">
                 <span class="visually-hidden">
                   Логотип Ютуба.
                 </span>
@@ -215,7 +215,7 @@
 
     <div class="modal-container modal-container--error">
       <h2 class="modal-container__title">
-        ЧТО-ТО ПОШЛО НЕ ТАК!
+        Что-то пошло не так!
       </h2>
       <p class="modal-container__description">
         Проверьте поля, выделенные<br>
@@ -223,7 +223,7 @@
           забыли их заполнить
       </p>
       <button class="modal-container__button button button--error">
-        OK
+        Ок
       </button>
     </div>
 
@@ -238,7 +238,7 @@
          опубликуем его на сайте.
       </p>
       <button class="modal-container__button button button--success">
-        ЗАкРЫТЬ ОКНО
+        Закрыть окно
       </button>
     </div>
 </body>

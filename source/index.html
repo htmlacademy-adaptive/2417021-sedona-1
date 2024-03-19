@@ -18,8 +18,8 @@
         </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
-              <a class="site-list__link" href="index.html">
+            <li class="site-list__item">
+              <a class="site-list__link site-list__link--active" href="index.html">
                 Главная
               </a>
             </li>
@@ -47,9 +47,7 @@
       <h1 class="visually-hidden">Городок Седона.</h1>
       <section class="hero-section">
         <div class="hero-section__wrapper">
-          <div class="hero-section__logo">
-            <img src="img/welcome-to-sedona-mobile.svg" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!." width="320" height="389">
-          </div>
+          <img src="img/welcome-to-sedona-mobile.svg" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!." width="320" height="389">
           <h2 class="hero-section__title">
             Седона - небольшой городок в Аризоне, заслуживающий большего!
           </h2>
@@ -90,7 +88,7 @@
                 Еда
               </h3>
               <p class="advantages__description">
-                Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
+                Всегда заказывайте фирменный бургер, Вы не разочаруетесь!
               </p>
             </li>
             <li class="advantages__item advantages__item--gift-icon">
@@ -105,7 +103,7 @@
               <img src="img/advantages-picture-2.jpg" alt="Фото &#34;Мост Дьявол&#34;." width="320" height="260">
               <div class="advantages__item-wrapper">
                 <h3 class="advantages__title">
-                  ТАМ ЕСТЬ Мост дьявола
+                  Там есть Мост дьявола
                 </h3>
                 <p class="advantages__item-count">
                   — №2 —
@@ -117,28 +115,29 @@
             </li>
             <li class="advantages__item">
               <h3 class="advantages__title">
-                НЕБОЛЬШАЯ ПЛОЩАДЬ
+                Небольшая площадь
               </h3>
               <p class="advantages__item-count">
                 — №3 —
               </p>
               <p class="advantages__description">
-                ВСЕ интересные места находятся очень близко
+                Все интересные места находятся очень близко
               </p>
+            </li>
             <li class="advantages__item">
               <h3 class="advantages__title">
-                КРАСИВАЯ ДОРОГА
+                Красивая дорога
               </h3>
               <p class="advantages__item-count">
                 — №4 —
               </p>
               <p class="advantages__description">
-                ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!
+                Ехать в Седону из Лас-Вегаса совсем не скучно!
               </p>
             </li>
             <li class="advantages__item">
               <h3 class="advantages__title">
-                МАЛО ТУРИСТОВ
+                Мало туристов
               </h3>
               <p class="advantages__item-count">
                 — №5 —
@@ -158,48 +157,49 @@
         <a class="hotel-search__button button button--xl" href="#">
           Поиск гостиницы в Седоне
         </a>
-        <img class="hotel-search__sedona-map map" src="img/map-mobile.png" alt="Карта Седоны.">
       </section>
-
+      <section class="sedona-map">
+        <h2 class="visually-hidden">
+          Карта городка Седона.
+        </h2>
+        <img class="sedona-map__image map" src="img/map-mobile.png" alt="Карта Седоны.">
+      </section>
     </main>
+
     <footer class="main-footer">
       <div class="main-footer__wrapper">
-        <div class="main-footer__title">
-          <p class="main-footer__hashtag">#VISITSEDONA</p>
-        </div>
-        <div class="main-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--vkontakte">
-                <span class="visually-hidden">
-                  Логотип Вконтакте.
-                </span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--telegram">
-                <span class="visually-hidden">
-                  Логотип Телеграма.
-                </span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--youtube">
-                <span class="visually-hidden">
-                  Логотип Ютуба.
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="main-footer__copyright copyright">
+        <p class="main-footer__hashtag">#VISITSEDONA</p>
+        <ul class="social__list social">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="#">
+              <span class="visually-hidden">
+                Логотип Вконтакте.
+              </span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="#">
+              <span class="visually-hidden">
+                Логотип Телеграма.
+              </span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">
+              <span class="visually-hidden">
+                Логотип Ютуба.
+              </span>
+            </a>
+          </li>
+        </ul>
+        <p class="main-footer__copyright copyright">
           <b class="copyright__text">
             Разработано
           </b>
           <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <span class="visually-hidden">HTML Academy</span>
           </a>
-        </div>
+        </p>
       </div>
     </footer>
   </body>
