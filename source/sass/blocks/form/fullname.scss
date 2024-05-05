@@ -1,0 +1,46 @@
+.full-name {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.full-name__label {
+  padding-left: 23px;
+}
+
+.full-name__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.full-name__input {
+  width: 264px;
+  height: 58px;
+  border: none;
+  padding: 0;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  margin-left: 7px;
+  background-color: rgba(242, 242, 242, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.full-name__input:last-child {
+  margin-bottom: 54px;
+}
+
+.full-name__input::placeholder {
+  color: rgba(0, 0, 0, 1);
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}

@@ -1,1 +1,62 @@
-// Начните писать стили здесь
+/* index.html */
+
+@use "../sass/blocks/index/hero-section.scss";
+@use "../sass/blocks/index/advantages.scss";
+@use "../sass/blocks/index/hotel-search.scss";
+
+/* form.html */
+
+@use "../sass/blocks/form/form-main-container.scss";
+@use "../sass/blocks/form/form-hero-section.scss";
+@use "../sass/blocks/form/feedback.scss";
+@use "../sass/blocks/form/fullname.scss";
+@use "../sass/blocks/form/fieldset.scss";
+@use "../sass/blocks/form/contacts.scss";
+@use "../sass/blocks/form/attractions.scss";
+@use "../sass/blocks/form/impressions.scss";
+
+/* photo.html */
+
+@use "../sass/blocks/photo/photo-main-container.scss";
+@use "../sass/blocks/photo/photo-hero-section.scss";
+@use "../sass/blocks/photo/media.scss";
+@use "../sass/blocks/photo/video-presentation.scss";
+
+/* common */
+
+@use "../sass/blocks/common/page.scss";
+@use "../sass/blocks/common/main-nav.scss";
+@use "../sass/blocks/common/main-header.scss";
+@use "../sass/blocks/common/main-footer.scss";
+@use "../sass/blocks/common/social.scss";
+@use "../sass/blocks/common/copyright.scss";
+@use "../sass/blocks/common/site-list.scss";
+
+/* modal-container */
+
+@use "../sass/blocks/modals/modal.scss";
+
+/* buttons */
+@use "../sass/blocks/variables/buttons.scss";
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
