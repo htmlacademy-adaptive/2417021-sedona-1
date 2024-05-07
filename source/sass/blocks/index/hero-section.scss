@@ -1,0 +1,27 @@
+.hero-section__image {
+  margin-top: 15px;
+  background-image: url("../../../img/hero-section-decorate-triangle.svg"), url("../../../img/back-mobile.jpg");
+  background-size: auto, cover;
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-color: rgba(129, 179, 210, 1);
+}
+
+.hero-section__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 28px;
+}
+
+.hero-section__description {
+  position: relative;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 35px;
+  margin-bottom: 32px;
+}

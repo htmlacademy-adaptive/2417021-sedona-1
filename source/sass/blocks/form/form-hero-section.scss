@@ -1,0 +1,42 @@
+.form-hero-section {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.hero-section__image {
+  width: 320px;
+  height: 389px;
+  background-size: cover;
+}
+
+.form-hero-section__logo {
+  background-image: url("../../../img/intro-triangle.svg"), url("../../../img/form-hero-section-background.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, bottom;
+  background-size: cover, cover;
+  background-color: rgba(34, 139, 34);
+  width: 320px;
+  height: 158px;
+  text-align: center;
+}
+
+.form-hero-section__words {
+  padding-top: 52px;
+}
+
+.form-hero-section__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 36px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.form-hero-section__description {
+  text-transform: uppercase;
+  margin-bottom: 53px;
+}
